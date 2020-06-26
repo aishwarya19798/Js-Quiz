@@ -12,7 +12,7 @@ div{
     justify-content: center;
     align-items: center;
 }
-#home button{
+button{
     border: 1px solid rgb(221, 222, 223);
     background-color: transparent;
     color: aliceblue;
@@ -21,4 +21,15 @@ div{
 }
 #game {
     display: none;
+}
+
+#options{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+#game button{
+    background-color: rgba(76, 0, 255, 0.404);
+    border: 1px solid rgb(251, 255, 6);
 }
