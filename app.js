@@ -29,7 +29,7 @@ let questionNumber = 0;
 
 start.addEventListener("click", function () {
   home.style.display = "none";
-  game.style.display = "block";
+  game.style.display = "flex";
 
   const question = dicti[questionNumber];
   questionEl.innerHTML = `Q${questionNumber + 1}: ${question.question}`;
@@ -85,13 +85,13 @@ next.addEventListener("click", function () {
     start.click();
   } else {
     questionNumber = 0;
-    home.style.display = "block";
+    home.style.display = "";
     game.style.display = "none";
   }
 });
 previous.addEventListener('click',function(){
     if(questionNumber == 0){
-        home.style.display = "block";
+        home.style.display = "";
         game.style.display = "none";
     }
     else{

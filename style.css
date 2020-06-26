@@ -5,7 +5,7 @@ body{
 div{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-#home{
+#home,#game{
     height: 100vh;
     display: flex;
     flex-direction: column;
