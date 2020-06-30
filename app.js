@@ -63,20 +63,6 @@ function checkAnswer(answer, choice, event) {
   // str.forEach(i=>{
   //     demo.innerHTML += i.innerHTML;
 
-  // str.forEach(opt=>{
-  //     opt.addEventListener('click',function(){
-  //         box.forEach(check => {
-  //             console.log('hello');
-  //             if(check == answer){
-  //                 // next pe chla jaye
-  //                 // hara kr do
-  //             }
-  //             else{
-  //                 // css button lal kr do
-  //             }
-  //         })
-  //     })
-  // })
 }
 
 next.addEventListener("click", function () {
